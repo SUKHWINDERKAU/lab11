@@ -35,9 +35,9 @@ header h2 {
 }
 
 /* STEP 3a: Put colored borders around the NAV, UL, LI and A elements inside the HEADER */
-header nav {
-	/* border is deleted  because it's not needed for this example that is the reason it showing an error */
-}
+/*header nav {
+ border is deleted  because it's not needed for this example that is the reason it showing an error 
+} */
 
 /* STEP 6: Remove the margin on the bottom of the UL below (set to 0) */
 header nav ul {
