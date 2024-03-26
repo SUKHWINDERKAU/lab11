@@ -5,17 +5,17 @@
 		<title>Terms Of Use | COMP1002 HTML, CSS, and JS Fundamentals</title>
 		<meta name="author" content="The name of the document’s author to go here">
 		<meta name="description" content="A concise and accurate summary of the document content is to appear here">
-		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-		<link rel="stylesheet" href="../css/styles.css" />
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body id="section6">
 		<!-- Page-level header -->
 		<header>
-			<img src="../images/html-logo.svg" height="75" width="75" alt="HTML" />
+			<img src="html-logo.svg" height="75" width="75" alt="HTML" />
 			<h1>HTML, CSS, and JS Fundamentals</h1>
 			<h2>Building Blocks for Web Developers</h2>
 <?php
-	require $_SERVER['DOCUMENT_ROOT'].'/lab-11-start\includes\global-nav.php';
+	require $_SERVER['DOCUMENT_ROOT'].'global-nav.php';
 ?>
 		</header>
 		<!-- Page-level main content -->
@@ -40,7 +40,7 @@
 			<aside>
 				<!-- Newsletter Subscribe Form -->
 				<h3 class="new-feature">Subscribe to Newsletter</h3>
-				<form action="/lab-11-start/subscribe.php" method="get">
+				<form action="subscribe.php" method="get">
 					<label for="emailAddress">Email</label>
 					<input type="email" name="emailAddress" id="emailAddress" required />
 					<button type="submit">Subscribe</button>
@@ -57,7 +57,7 @@
 		<!-- Page-level footer -->
 		<footer>
 <?php
-	require $_SERVER['DOCUMENT_ROOT'].'/lab-11-start\includes\footer-nav.php';
+	require $_SERVER['DOCUMENT_ROOT'].'footer-nav.php';
 ?>
 			<p><small>© HTML, CSS, and JS Blocks Inc.</small></p>
 		</footer>
