@@ -18,7 +18,7 @@
 	require $_SERVER['DOCUMENT_ROOT'].'global-nav.php';
 ?>
 		</header>
-		<!-- Page-level main content.-->
+		<!-- Page-level main content-->
 		<main>
 			<!-- News Section -->
 			<section>
