@@ -8,7 +8,7 @@
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 		<link rel="stylesheet" href="styles.css" />
 	</head>
-	<body id="section1">
+	<body>
 		<!-- Page-level header -->
 		<header>
  			<img src="html-logo.svg" height="75" width="75" alt="HTML" />
